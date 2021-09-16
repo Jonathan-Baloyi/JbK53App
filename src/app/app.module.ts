@@ -3,16 +3,37 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/core/navbar/navbar.component';
+import { FooterComponent } from './components/core/footer/footer.component';
+import { HomeComponent } from './components/core/home/home.component';
+import { ContainerComponent } from './components/core/container/container.component';
+import { MenuService } from './services/menu.service';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LearnersTestComponent } from './components/core/learners-test/learners-test.component';
+import { AboutComponent } from './components/core/about/about.component';
+import { ContactComponent } from './components/core/contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent,
+    ContainerComponent,
+    LearnersTestComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [MenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
