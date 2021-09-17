@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q1_image.gif",
+    "description": "This warning sign tells you that you may not drive there if your vehicle is ",
+    "showCorrectAnswer": false,
+    "answers": [{
+      "key": "A",
+      "description": "higher than 4.42m"
+    },
+    {
+      "key": "B",
+      "description": "longer than 4.42m"
+    },{
+      "key": "C",
+      "description": "wider than 4.42m"
+    }],
+    "correctAnswers": [{
+      "key": "A",
+      "description": "higher than 4.42m"
+    }]
+	},
+  {
+		"id": 2,
+		"multipleAnswers": true,
+		"imageUrl": "assets/signs/Q2_image.gif",
+    "description": "This road sign shows that: ",
+    "showCorrectAnswer": false,
+    "answers": [{
+      "key": "A",
+      "description": "You must drive there at all times if your vehicle has a GVM of 12 tons."
+    },
+    {
+      "key": "B",
+      "description": "You must drive there at all times if your vehicle has a GVM of 8 tons."
+    },{
+      "key": "C",
+      "description": "If you want to you can drive there if your vehicle has a GVM of 10 tons."
+    }],
+    "correctAnswers": [{
+      "key": "A",
+      "description": "You must drive there at all times if your vehicle has a GVM of 12 tons."
+    }]
+	},
+  {
+    "id": 3,
+		"multipleAnswers": false,
+		"imageUrl": "",
+    "description": "You may carry passengers in a vehicle that is being towed: \n\t1. If you only travel at 35 km/h\n\t2. If the vehicle that is being towed is a semi-trailerOnly \n\t3. if the vehicle that tows something is a tractor",
+    "showCorrectAnswer": false,
+    "answers": [{
+      "key": "A",
+      "description": "(1) and (2) are correct"
+    },
+    {
+      "key": "B",
+      "description": "All of the above are correct"
+    },{
+      "key": "C",
+      "description": "(2) is the only correct answer"
+    }],
+    "correctAnswers": [{
+      "key": "C",
+      "description": "(2) is the only correct answer"
+    }]
+  }
+]
