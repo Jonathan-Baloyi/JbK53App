@@ -1,1 +1,26 @@
-<p>learners-test works!</p>
+<div class="pt-5" *ngFor="let question of questions; let index = index">
+  <pre>{{index + 1}}. {{question.description}}</pre><br />
+  <div class="mx-auto">
+    <img class="logo" src="{{question.imageUrl}}" />
+  </div>
+  <div style="margin-left: 10px;" *ngFor="let answer of question.answers">
+    <div *ngIf="!question.multipleAnswers; else second" class="wrapper-class">
+      <input type="radio" name="option{{question.id}}" value="option{{question.id}}"
+        (change)="radioChecked(answer, question)">
+      <label for="{{question.id}}">{{answer.key}} - {{answer.description}} </label>
+    </div>
+    <ng-template #second class="wrapper-class">
+      <input type="checkbox" name="radiogroup">
+      <label for="checkbox1">&nbsp;{{answer.key}} - {{answer.description}} </label>
+    </ng-template>
+  </div>
+  <br />
+  <a (click)="question.showCorrectAnswer = !question.showCorrectAnswer;" class="p-2">Please click here to view the
+    answer</a>
+  <div *ngIf="question.showCorrectAnswer">
+    <div *ngFor="let correct of question.correctAnswers" class="pt-4 pl-1">
+      The correct answer is : {{correct.key}} - {{correct.description}}
+    </div>
+  </div>
+  <hr />
+</div>

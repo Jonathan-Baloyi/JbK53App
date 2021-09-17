@@ -13,6 +13,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LearnersTestComponent } from './components/core/learners-test/learners-test.component';
 import { AboutComponent } from './components/core/about/about.component';
 import { ContactComponent } from './components/core/contact/contact.component';
+import { HeavyVehicleService } from './services/heavy-vehicle.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,13 +29,14 @@ import { ContactComponent } from './components/core/contact/contact.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserModule,
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
   ],
-  providers: [MenuService],
+  providers: [MenuService, HeavyVehicleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
