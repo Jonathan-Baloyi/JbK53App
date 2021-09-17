@@ -13,6 +13,6 @@ export class HeavyVehicleService {
   constructor(private httpService: HttpClient) { }
 
   public getQuestions(): Observable<IQuestion[]> {
-    return this.httpService.get('../../../../assets/questions/questions.json') as Observable<IQuestion[]>;
+    return this.httpService.get('assets/questions/questions.json') as Observable<IQuestion[]>;
   }
 }
