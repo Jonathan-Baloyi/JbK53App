@@ -42,9 +42,8 @@ export class MenuService {
     /* Incase menu items are required in the future, we'll just uncomment the following code */
     const menuItems: IMenu[] = [];
     menuItems.push(homeMenuItem);
-    // menuItems.push(menuMenuItem);
-    //menuItems.push(aboutMenuItem);
-    //menuItems.push(contactMenuItem);
+    menuItems.push(aboutMenuItem);
+    menuItems.push(contactMenuItem);
 
     const res: Observable<IMenu[]> = of(menuItems);
     return res;
