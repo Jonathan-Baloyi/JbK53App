@@ -1,5 +1,10 @@
 <div class="pt-5" *ngFor="let question of questions; let index = index">
-  <pre>{{index + 1}}. {{question.description}}</pre><br />
+  <div class="heading-description">
+    <span>{{index + 1}}.</span>&nbsp;
+    <span>{{question.description}} </span>
+    <br />
+  </div>
+
   <div class="mx-auto">
     <img class="logo" src="{{question.imageUrl}}" />
   </div>
