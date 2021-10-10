@@ -5,6 +5,8 @@
 		"imageUrl": "assets/signs/Q1_image.gif",
     "description": "This warning sign tells you that you may not drive there if your vehicle is ",
     "showCorrectAnswer": false,
+    "checked": false,
+    "selectedAnswer": "",
     "answers": [{
       "key": "A",
       "description": "higher than 4.42m"
@@ -23,10 +25,11 @@
 	},
   {
 		"id": 2,
-		"multipleAnswers": true,
+		"multipleAnswers": false,
 		"imageUrl": "assets/signs/Q2_image.gif",
     "description": "This road sign shows that: ",
     "showCorrectAnswer": false,
+    "checked": false,
     "answers": [{
       "key": "A",
       "description": "You must drive there at all times if your vehicle has a GVM of 12 tons."
@@ -49,6 +52,7 @@
 		"imageUrl": "",
     "description": "You may carry passengers in a vehicle that is being towed: \n\t1. If you only travel at 35 km/h\n\t2. If the vehicle that is being towed is a semi-trailerOnly \n\t3. if the vehicle that tows something is a tractor",
     "showCorrectAnswer": false,
+    "checked": false,
     "answers": [{
       "key": "A",
       "description": "(1) and (2) are correct"

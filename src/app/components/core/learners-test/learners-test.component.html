@@ -6,7 +6,7 @@
   <div style="margin-left: 10px;" *ngFor="let answer of question.answers">
     <div *ngIf="!question.multipleAnswers; else second" class="wrapper-class">
       <input type="radio" name="option{{question.id}}" value="option{{question.id}}"
-        (change)="radioChecked(answer, question)">
+        (change)="question.checked = true; question.selectedAnswer = answer.key">
       <label for="{{question.id}}">{{answer.key}} - {{answer.description}} </label>
     </div>
     <ng-template #second class="wrapper-class">
@@ -15,11 +15,24 @@
     </ng-template>
   </div>
   <br />
-  <a (click)="question.showCorrectAnswer = !question.showCorrectAnswer;" class="p-2">Please click here to view the
+  <a (click)="showAnswer(question.selectedAnswer);question.showCorrectAnswer = !question.showCorrectAnswer;"
+    class="p-2">Please
+    click here to view
+    the
     answer</a>
-  <div *ngIf="question.showCorrectAnswer">
-    <div *ngFor="let correct of question.correctAnswers" class="pt-4 pl-1">
-      The correct answer is : {{correct.key}} - {{correct.description}}
+  <div *ngFor="let correct of question.correctAnswers">
+    <div *ngIf="question.showCorrectAnswer && question.checked">
+      <div class="p-2">
+        The selected answer : {{question.selectedAnswer}}
+        <span *ngIf="question.selectedAnswer !== correct.key"> is incorrect <img src="assets/icons/x.svg"></span>
+        <span *ngIf="question.selectedAnswer === correct.key"> is correct <img src="assets/icons/check.svg"></span>
+      </div>
+      <div class="p-2">
+        The correct answer is : {{correct.key}} - {{correct.description}}
+      </div>
+    </div>
+    <div *ngIf="question.showCorrectAnswer && !question.checked" class="text-warning p-2"> Please select an answer
+      first!
     </div>
   </div>
   <hr />

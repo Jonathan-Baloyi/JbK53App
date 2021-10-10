@@ -11,6 +11,7 @@ export class LearnersTestComponent implements OnInit {
 
   public questions: IQuestion[] = [];
   public showCorrectAnswer = false;
+  public checked = false;
 
   constructor(private heavyVehicleService: HeavyVehicleService) { }
 
@@ -23,10 +24,11 @@ export class LearnersTestComponent implements OnInit {
   radioChecked(answer, question) {
     console.log("Clicked");
     console.log(answer);
+    this.checked = true;
   }
 
-  showAnswer() {
-    this.showCorrectAnswer = !this.showCorrectAnswer;
+  showAnswer(checked) {
+    console.log(checked);
   }
 
 }
