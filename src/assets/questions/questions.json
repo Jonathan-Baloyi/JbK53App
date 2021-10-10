@@ -137,5 +137,98 @@
       "key": "C",
       "description": "You must only drive straight on"
     }]
+	},
+  {
+		"id": 8,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q8_image.gif",
+    "description": "This prohibition sign indicates what? ",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [{
+      "key": "A",
+      "description": "Prohibits you from using your hooter"
+    },
+    {
+      "key": "B",
+      "description": "There is a hospital ahead where you must not make a noise"
+    },{
+      "key": "C",
+      "description": "You may not pick up people"
+    }],
+    "correctAnswers": [{
+      "key": "A",
+      "description": "Prohibits you from using your hooter"
+    }]
+	},
+  {
+		"id": 9,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q9_image.gif",
+    "description": "This triangle shows you that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [{
+      "key": "A",
+      "description": "There is a special lane for cyclists"
+    },
+    {
+      "key": "B",
+      "description": " No cyclist are allowed there"
+    },{
+      "key": "C",
+      "description": "You must be on the lookout for cyclist"
+    }],
+    "correctAnswers": [{
+      "key": "C",
+      "description": "You must be on the lookout for cyclist"
+    }]
+	},
+  {
+		"id": 10,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q10_image.gif",
+    "description": "This warning sign indicates: ",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [{
+      "key": "A",
+      "description": "Severe winds are common in this area"
+    },
+    {
+      "key": "B",
+      "description": "The road Is slippery"
+    },{
+      "key": "C",
+      "description": "The road is untarred"
+    }],
+    "correctAnswers": [{
+      "key": "B",
+      "description": "The road Is slippery"
+    }]
+	},
+  {
+		"id": 11,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q11_image.gif",
+    "description": "What does sign stop sign tell you? ",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [{
+      "key": "A",
+      "description": "It is the same as a yield sign and you can proceed without stopping"
+    },
+    {
+      "key": "B",
+      "description": "Makes sure that it is safe, wait until all traffic has departed and then drive on"
+    },{
+      "key": "C",
+      "description": "Stop and drive when it is safe to do so in the sequence that vehicles stopped at the stop line"
+    }],
+    "correctAnswers": [{
+      "key": "C",
+      "description": "Stop and drive when it is safe to do so in the sequence that vehicles stopped at the stop line"
+    }]
 	}
+
 ]
