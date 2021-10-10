@@ -50,7 +50,7 @@
     "id": 3,
 		"multipleAnswers": false,
 		"imageUrl": "",
-    "description": "You may carry passengers in a vehicle that is being towed: \n\t1. If you only travel at 35 km/h\n\t2. If the vehicle that is being towed is a semi-trailerOnly \n\t3. if the vehicle that tows something is a tractor",
+    "description": "You may carry passengers in a vehicle that is being towed: \n1. If you only travel at 35 km/h\n2. If the vehicle that is being towed is a semi-trailerOnly \n3. if the vehicle that tows something is a tractor",
     "showCorrectAnswer": false,
     "checked": false,
     "answers": [{
