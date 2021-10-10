@@ -27,9 +27,9 @@
         <span *ngIf="question.selectedAnswer !== correct.key"> is incorrect <img src="assets/icons/x.svg"></span>
         <span *ngIf="question.selectedAnswer === correct.key"> is correct <img src="assets/icons/check.svg"></span>
       </div>
-      <div class="p-2">
+      <!-- <div class="p-2">
         The correct answer is : {{correct.key}} - {{correct.description}}
-      </div>
+      </div> -->
     </div>
     <div *ngIf="question.showCorrectAnswer && !question.checked" class="text-warning p-2"> Please select an answer
       first!
