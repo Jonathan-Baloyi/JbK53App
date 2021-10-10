@@ -8,7 +8,7 @@
   <div class="mx-auto">
     <img class="logo" src="{{question.imageUrl}}" />
   </div>
-  <div style="margin-left: 10px;" *ngFor="let answer of question.answers">
+  <div style="margin-left: 10px;" class="answer-description" *ngFor="let answer of question.answers">
     <div *ngIf="!question.multipleAnswers; else second" class="wrapper-class">
       <input type="radio" name="option{{question.id}}" value="option{{question.id}}"
         (change)="question.checked = true; question.selectedAnswer = answer.key">
