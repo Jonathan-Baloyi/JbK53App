@@ -68,5 +68,74 @@
       "key": "C",
       "description": "(2) is the only correct answer"
     }]
-  }
+  },
+  {
+		"id": 4,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q4_image.gif",
+    "description": "What does warning sign L10 show you? ",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [{
+      "key": "A",
+      "description": "Roads crossing ahead and other vehicles from the side must stop or yield at the intersection"
+    },
+    {
+      "key": "B",
+      "description": "A 4-way stop will be found ahead where the roads cross"
+    },{
+      "key": "C",
+      "description": "A railway line intersects with the road that you are travelling on"
+    }],
+    "correctAnswers": [{
+      "key": "A",
+      "description": "Roads crossing ahead and other vehicles from the side must stop or yield at the intersection"
+    }]
+	},
+  {
+		"id": 5,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q5_image.gif",
+    "description": "What does this blue sign show you? ",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [{
+      "key": "A",
+      "description": "You may not drive slower than 50km/h"
+    },
+    {
+      "key": "B",
+      "description": "That sign is applicable for 50 m"
+    },{
+      "key": "C",
+      "description": "You may not drive faster than 50 km/h"
+    }],
+    "correctAnswers": [{
+      "key": "A",
+      "description": "You may not drive slower than 50km/h"
+    }]
+	},
+  {
+		"id": 7,
+		"multipleAnswers": false,
+		"imageUrl": "assets/signs/Q7_image.gif",
+    "description": "This blue sign with the white arrow shows you that: ",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [{
+      "key": "A",
+      "description": " You will find a one-way road ahead"
+    },
+    {
+      "key": "B",
+      "description": "You will find a free-way ahead"
+    },{
+      "key": "C",
+      "description": "You must only drive straight on"
+    }],
+    "correctAnswers": [{
+      "key": "C",
+      "description": "You must only drive straight on"
+    }]
+	}
 ]
