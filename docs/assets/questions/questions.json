@@ -279,5 +279,173 @@
         "description": "Stop and drive when it is safe to do so in the sequence that vehicles stopped at the stop line"
       }
     ]
+  },
+  {
+    "id": 12,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "You may not obtain a learners license if \n\n (i) you already have a license that authorizes the driving of the same vehicle class \n (ii) you are declared unfit to obtain a driving license for a certain period and period still prevails \n (iii) you license was suspended temporarily and the suspension has not yet expired \n\n SELECT THE CORRECT COMBINATION",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [
+      {
+        "key": "A",
+        "description": "(i) only is correct"
+      },
+      {
+        "key": "B",
+        "description": "(ii) and (iii) only are correct"
+      },
+      {
+        "key": "C",
+        "description": "(i), (ii) and (iii) are correct"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "(i), (ii) and (iii) are correct"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "The only instance where you may stop on a freeway is...",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [
+      {
+        "key": "A",
+        "description": "To obey a road traffic sign"
+      },
+      {
+        "key": "B",
+        "description": "For a rest during a tiring journey"
+      },
+      {
+        "key": "C",
+        "description": "To pick up a hitchhiker"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "To obey a road traffic sign"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "You are not allowed to stop…",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [
+      {
+        "key": "A",
+        "description": "Where you are also not allowed to park"
+      },
+      {
+        "key": "B",
+        "description": "Opposite a vehicle where the roadway is 10 m wide"
+      },
+      {
+        "key": "C",
+        "description": "5 m from a bridge"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "5 m from a bridge"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "What is important with regard to the hooter of your vehicle?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [
+      {
+        "key": "A",
+        "description": "The tone of pitch of the sound may not change"
+      },
+      {
+        "key": "B",
+        "description": "Someone must hear it from a distance of at least 45 m"
+      },
+      {
+        "key": "C",
+        "description": "You may use it to get the attention of someone that you would like to offer a lift"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "The tone of pitch of the sound may not change"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "When you were involved in an accident you…\n (i) Must immediately stop your vehicle\n (ii) Must determine the damage to the vehicle\n (iii) May refuse to give your name and address to anybody except to the police \n\n SELECT THE CORRECT COMBINATION",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [
+      {
+        "key": "A",
+        "description": "(i) and (ii) only are correct"
+      },
+      {
+        "key": "B",
+        "description": "(ii) only is correct"
+      },
+      {
+        "key": "C",
+        "description": "All of the above are correct"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "(i) and (ii) only are correct"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "When you drive…",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "answers": [
+      {
+        "key": "A",
+        "description": "You must have two hands on the steering wheel"
+      },
+      {
+        "key": "B",
+        "description": "Your vision of the road and the traffic must be unobstructed"
+      },
+      {
+        "key": "C",
+        "description": "You must wear shoes with rubber soles"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "Your vision of the road and the traffic must be unobstructed"
+      }
+    ]
   }
 ]
