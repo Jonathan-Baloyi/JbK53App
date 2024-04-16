@@ -1,5 +1,3 @@
-
-
 # JbK53App
 
 ## https://jonathan-baloyi.github.io/JbK53App/
@@ -49,7 +47,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
