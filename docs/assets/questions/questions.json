@@ -396,7 +396,7 @@
     "id": 16,
     "multipleAnswers": false,
     "imageUrl": "",
-    "description": "When you were involved in an accident you…\n (i) Must immediately stop your vehicle\n (ii) Must determine the damage to the vehicle\n (iii) May refuse to give your name and address to anybody except to the police \n\n SELECT THE CORRECT COMBINATION",
+    "description": "When you were involved in an accident you…\n\n (i) Must immediately stop your vehicle\n (ii) Must determine the damage to the vehicle\n (iii) May refuse to give your name and address to anybody except to the police \n\n SELECT THE CORRECT COMBINATION",
     "showCorrectAnswer": false,
     "checked": false,
     "answers": [
