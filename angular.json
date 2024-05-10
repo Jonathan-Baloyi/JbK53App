@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "JbK53App"
+  "defaultProject": "JbK53App",
+  "cli": {
+    "analytics": false
+  }
 }
