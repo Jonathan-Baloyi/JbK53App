@@ -7,6 +7,7 @@
     "showCorrectAnswer": false,
     "checked": false,
     "selectedAnswer": "",
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -35,6 +36,7 @@
     "description": "This road sign shows that: ",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -63,6 +65,7 @@
     "description": "You may carry passengers in a vehicle that is being towed: \n1. If you only travel at 35 km/h\n2. If the vehicle that is being towed is a semi-trailerOnly \n3. if the vehicle that tows something is a tractor",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -91,6 +94,7 @@
     "description": "What does warning sign L10 show you? ",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -119,6 +123,7 @@
     "description": "What does this blue sign show you? ",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -147,6 +152,7 @@
     "description": "This blue sign with the white arrow shows you that: ",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -175,6 +181,7 @@
     "description": "This prohibition sign indicates what? ",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -203,6 +210,7 @@
     "description": "This triangle shows you that:",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -231,6 +239,7 @@
     "description": "This warning sign indicates: ",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -259,6 +268,7 @@
     "description": "What does sign stop sign tell you? ",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -287,6 +297,7 @@
     "description": "You may not obtain a learners license if \n\n (i) you already have a license that authorizes the driving of the same vehicle class \n (ii) you are declared unfit to obtain a driving license for a certain period and period still prevails \n (iii) you license was suspended temporarily and the suspension has not yet expired \n\n SELECT THE CORRECT COMBINATION",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -315,6 +326,7 @@
     "description": "The only instance where you may stop on a freeway is...",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -343,6 +355,7 @@
     "description": "You are not allowed to stop…",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -371,6 +384,7 @@
     "description": "What is important with regard to the hooter of your vehicle?",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -399,6 +413,7 @@
     "description": "When you were involved in an accident you…\n\n (i) Must immediately stop your vehicle\n (ii) Must determine the damage to the vehicle\n (iii) May refuse to give your name and address to anybody except to the police \n\n SELECT THE CORRECT COMBINATION",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
@@ -427,6 +442,7 @@
     "description": "When you drive…",
     "showCorrectAnswer": false,
     "checked": false,
+    "questionType": 5,
     "answers": [
       {
         "key": "A",
