@@ -1,66 +1,72 @@
-<div *ngFor="let question of questions; let index = index">
-  <div class="d-flex justify-content-start gap-4">
-    <div>{{ index + 1 }}.</div>
-    <div>{{ question.description }}</div>
-  </div>
-
-  <div class="mx-auto">
-    <img class="img-fluid" src="{{ question.imageUrl }}" />
-  </div>
-
-  <div class="d-flex flex-column" *ngFor="let answer of question.answers">
-    <div
-      *ngIf="!question.multipleAnswers; else second"
-      class="d-flex justify-content-start gap-3"
-    >
-      <div>
-        <input
-          type="radio"
-          name="option{{ question.id }}"
-          value="option{{ question.id }}"
-          (change)="
-            question.checked = true; question.selectedAnswer = answer.key
-          "
-        />
-      </div>
-      <label for="{{ question.id }}">
-        <div class="d-flex justify-content-start">
-          {{ answer.key }} - {{ answer.description }}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-auto">
+      <div *ngFor="let question of questions; let index = index">
+        <div class="d-flex justify-content-start gap-4">
+          <div>{{ index + 1 }}.</div>
+          <div>{{ question.description }}</div>
         </div>
-      </label>
-    </div>
-    <ng-template #second>
-      <div class="d-flex justify-content-start gap-3">
-        <div>
-          <input type="checkbox" name="radiogroup" />
+
+        <div class="mx-auto">
+          <img class="img-fluid" src="{{ question.imageUrl }}" />
         </div>
-        <label for="{{ question.id }}">
-          <div class="d-flex justify-content-start">
-            {{ answer.key }} - {{ answer.description }}
+
+        <div class="d-flex flex-column" *ngFor="let answer of question.answers">
+          <div
+            *ngIf="!question.multipleAnswers; else second"
+            class="d-flex justify-content-start gap-3"
+          >
+            <div>
+              <input
+                type="radio"
+                name="option{{ question.id }}"
+                value="option{{ question.id }}"
+                (change)="
+                  question.checked = true; question.selectedAnswer = answer.key
+                "
+              />
+            </div>
+            <label for="{{ question.id }}">
+              <div class="d-flex justify-content-start">
+                {{ answer.key }} - {{ answer.description }}
+              </div>
+            </label>
           </div>
-        </label>
-      </div>
-    </ng-template>
-  </div>
-  <br />
-  <div *ngFor="let correct of question.correctAnswers">
-    <div *ngIf="question.checked">
-      <div class="p-2">
-        The selected answer : {{ question.selectedAnswer }}
-        <span *ngIf="question.selectedAnswer !== correct.key">
-          is incorrect <img src="assets/icons/x.svg"
-        /></span>
-        <span *ngIf="question.selectedAnswer === correct.key">
-          is correct <img src="assets/icons/check.svg"
-        /></span>
+          <ng-template #second>
+            <div class="d-flex justify-content-start gap-3">
+              <div>
+                <input type="checkbox" name="radiogroup" />
+              </div>
+              <label for="{{ question.id }}">
+                <div class="d-flex justify-content-start">
+                  {{ answer.key }} - {{ answer.description }}
+                </div>
+              </label>
+            </div>
+          </ng-template>
+        </div>
+        <br />
+        <div *ngFor="let correct of question.correctAnswers">
+          <div *ngIf="question.checked">
+            <div class="p-2">
+              The selected answer : {{ question.selectedAnswer }}
+              <span *ngIf="question.selectedAnswer !== correct.key">
+                is incorrect <img src="assets/icons/x.svg"
+              /></span>
+              <span *ngIf="question.selectedAnswer === correct.key">
+                is correct <img src="assets/icons/check.svg"
+              /></span>
+            </div>
+          </div>
+          <div
+            *ngIf="question.showCorrectAnswer && !question.checked"
+            class="text-warning p-2"
+          >
+            Please select an answer first!
+          </div>
+        </div>
+        <hr />
       </div>
     </div>
-    <div
-      *ngIf="question.showCorrectAnswer && !question.checked"
-      class="text-warning p-2"
-    >
-      Please select an answer first!
-    </div>
   </div>
-  <hr />
 </div>
