@@ -20,8 +20,8 @@ export class LearnersTestComponent {
     this.learnersTestService.getQuestions().subscribe((result) => {
       this.questions = result.filter(
         (records) =>
-          records.questionType === this.learnersTestType ||
-          records.questionType === QuestionTypeEnum.All
+          records.questionType.includes(this.learnersTestType) ||
+          records.questionType.includes(QuestionTypeEnum.All)
       );
     });
   }

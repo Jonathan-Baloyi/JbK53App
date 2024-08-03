@@ -7,7 +7,7 @@
     "showCorrectAnswer": false,
     "checked": false,
     "selectedAnswer": "",
-    "questionType": 5,
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -36,7 +36,7 @@
     "description": "This road sign shows that: ",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -65,7 +65,7 @@
     "description": "You may carry passengers in a vehicle that is being towed: \n1. If you only travel at 35 km/h\n2. If the vehicle that is being towed is a semi-trailerOnly \n3. if the vehicle that tows something is a tractor",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -94,7 +94,7 @@
     "description": "What does warning sign L10 show you? ",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -123,7 +123,7 @@
     "description": "What does this blue sign show you? ",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -152,7 +152,7 @@
     "description": "This blue sign with the white arrow shows you that: ",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -181,7 +181,7 @@
     "description": "This prohibition sign indicates what? ",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -210,7 +210,7 @@
     "description": "This triangle shows you that:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -239,7 +239,7 @@
     "description": "This warning sign indicates: ",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -268,7 +268,7 @@
     "description": "What does sign stop sign tell you? ",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -297,7 +297,7 @@
     "description": "You may not obtain a learners license if \n\n (i) you already have a license that authorizes the driving of the same vehicle class \n (ii) you are declared unfit to obtain a driving license for a certain period and period still prevails \n (iii) you license was suspended temporarily and the suspension has not yet expired \n\n SELECT THE CORRECT COMBINATION",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -326,7 +326,7 @@
     "description": "The only instance where you may stop on a freeway is...",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -355,7 +355,7 @@
     "description": "You are not allowed to stop…",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -384,7 +384,7 @@
     "description": "What is important with regard to the hooter of your vehicle?",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4, 5],
     "answers": [
       {
         "key": "A",
@@ -413,7 +413,7 @@
     "description": "When you were involved in an accident you…\n\n (i) Must immediately stop your vehicle\n (ii) Must determine the damage to the vehicle\n (iii) May refuse to give your name and address to anybody except to the police \n\n SELECT THE CORRECT COMBINATION",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -442,7 +442,7 @@
     "description": "When you drive…",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": 5,
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -461,6 +461,180 @@
       {
         "key": "B",
         "description": "Your vision of the road and the traffic must be unobstructed"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "When turning, use…",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Number 4"
+      },
+      {
+        "key": "B",
+        "description": "Number 5"
+      },
+      {
+        "key": "C",
+        "description": "Number 10"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "Number 4"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "To stop, use…",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Number 9"
+      },
+      {
+        "key": "B",
+        "description": "Number 8"
+      },
+      {
+        "key": "C",
+        "description": "Number 7"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "Number 9"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "To ensure your parked vehicle does not move, use…",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Number 7"
+      },
+      {
+        "key": "B",
+        "description": "Number 8"
+      },
+      {
+        "key": "C",
+        "description": "Number 9"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "Number 7"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "What is number 2 used for?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "To clear the windscreen of any water"
+      },
+      {
+        "key": "B",
+        "description": "To warn other road users that you are approaching"
+      },
+      {
+        "key": "C",
+        "description": "To warn other road users that you are about to turn"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "To clear the windscreen of any water"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "Number (x) is not found in an automatic vehicle",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Number 10"
+      },
+      {
+        "key": "B",
+        "description": "Number 9"
+      },
+      {
+        "key": "C",
+        "description": "Number 8"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "Number 8"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "The distance that is required for a driver of a motor vehicle to stop is:\n\n (i) Longer on a wet road than on a dry road.\n (ii) Longer if the vehicle is traveling at a higher speed.\n (iii) Longer if the vehicle is loaded. \n\n SELECT THE CORRECT COMBINATION",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "None of the above is correct."
+      },
+      {
+        "key": "B",
+        "description": "only (i) is correct."
+      },
+      {
+        "key": "C",
+        "description": "All of the above are correct"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "All of the above are correct"
       }
     ]
   }
