@@ -1,13 +1,14 @@
 import { Component, Input } from '@angular/core';
 import { IQuestion } from '../../models/IQuestion';
 import { LearnersTestService } from '../../services/heavy-vehicle.service';
+import { QuestionTypeEnum } from '../../models/question-type.enum';
 
 @Component({
   selector: 'app-learners-test',
   templateUrl: './learners-test.component.html',
 })
 export class LearnersTestComponent {
-  @Input() learnersTestType: string;
+  @Input() learnersTestType: number;
 
   public questions: IQuestion[] = [];
   public showCorrectAnswer = false;
@@ -17,7 +18,11 @@ export class LearnersTestComponent {
 
   ngOnInit(): void {
     this.learnersTestService.getQuestions().subscribe((result) => {
-      this.questions = result;
+      this.questions = result.filter(
+        (records) =>
+          records.questionType === this.learnersTestType ||
+          records.questionType === QuestionTypeEnum.All
+      );
     });
   }
 
