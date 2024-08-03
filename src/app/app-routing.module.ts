@@ -1,16 +1,37 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './components/core/about/about.component';
-import { ContactComponent } from './components/core/contact/contact.component';
-import { HomeComponent } from './components/core/home/home.component';
-import { LearnersTestComponent } from './components/core/learners-test/learners-test.component';
+import { HomeComponent } from './feature-modules/landing/components/home/home.component';
 
 const routes: Routes = [
-  { path: '', component: LearnersTestComponent },
-  { path: 'home', component: LearnersTestComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' },
+  {
+    path: 'landing',
+    loadChildren: () =>
+      import('./feature-modules/landing/landing.module').then(
+        (m) => m.LandingModule
+      ),
+  },
+  {
+    path: 'light-vehicle',
+    loadChildren: () =>
+      import('./feature-modules/light-vehicle/light-vehicle.module').then(
+        (m) => m.LightVehicleModule
+      ),
+  },
+  {
+    path: 'heavy-vehicle',
+    loadChildren: () =>
+      import('./feature-modules/heavy-vehicle/heavy-vehicle.module').then(
+        (m) => m.HeavyVehicleModule
+      ),
+  },
+  {
+    path: 'motor-cycle',
+    loadChildren: () =>
+      import('./feature-modules/motorbike/motorbike.module').then(
+        (m) => m.MotorbikeModule
+      ),
+  },
+  { path: '**', redirectTo: 'landing', pathMatch: 'full' },
 ];
 
 @NgModule({

@@ -4,15 +4,15 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class MenuService {
-  constructor() { }
+  constructor() {}
 
   public getMenu(): Observable<IMenu[]> {
     const homeMenuItem: IMenu = {
       name: 'Home',
-      link: '/home',
+      link: '/landing/home',
       data: null,
       isCurrent: false,
-      isDisabled: false
+      isDisabled: false,
     };
 
     const menuMenuItem: IMenu = {
@@ -20,23 +20,23 @@ export class MenuService {
       link: '/menu',
       data: null,
       isCurrent: false,
-      isDisabled: false
+      isDisabled: false,
     };
 
     const aboutMenuItem: IMenu = {
       name: 'About',
-      link: '/about',
+      link: '/landing/about',
       data: null,
       isCurrent: false,
-      isDisabled: false
+      isDisabled: false,
     };
 
     const contactMenuItem: IMenu = {
       name: 'Contact',
-      link: '/contact',
+      link: '/landing/contact',
       data: null,
       isCurrent: false,
-      isDisabled: false
+      isDisabled: false,
     };
 
     /* Incase menu items are required in the future, we'll just uncomment the following code */

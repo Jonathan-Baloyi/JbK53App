@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="d-flex flex-row flex-wrap justify-content-center">
+    <div
+      [routerLink]="item.link"
+      class="card m-2"
+      style="width: 18rem"
+      *ngFor="let item of learnersTestTypes(); let index = index"
+    >
+      <img
+        class="card-img-top img-responsive"
+        src="{{ item.imageUrl }}"
+        alt="Card image"
+      />
+    </div>
+  </div>
+</div>
