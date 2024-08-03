@@ -55,6 +55,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```
 
 2. Change the base ref in index.html to just a .
-3. then run ng build --prod
+3. then run ng build --prod / ng build --configuration production
 4. Git push
 5. Configure the folder for github pages in github
