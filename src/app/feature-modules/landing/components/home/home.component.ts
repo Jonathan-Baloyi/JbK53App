@@ -8,7 +8,7 @@ import { Component, OnInit, signal } from '@angular/core';
 export class HomeComponent implements OnInit {
   learnersTestTypes = signal([
     {
-      title: 'Light Motor Vehicle (Code 08 or Code B',
+      title: 'Light Motor Vehicle(Code 08 or B)',
       imageUrl: 'assets/icons/light.jpg',
       link: '/light-vehicle',
     },

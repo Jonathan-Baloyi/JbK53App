@@ -1,4 +1,11 @@
 <div class="container">
+  <div class="jumbotron jumbotron-fluid">
+    <h1 class="display-4 d-flex justify-content-center">Welcome</h1>
+    <p class="lead d-flex justify-content-center">
+      Select a learners test below that you would like to prepare for:
+    </p>
+  </div>
+
   <div class="d-flex flex-row flex-wrap justify-content-center">
     <div
       [routerLink]="item.link"
@@ -11,6 +18,9 @@
         src="{{ item.imageUrl }}"
         alt="Card image"
       />
+      <div class="mt-auto">
+        <p class="card-title fw-bold p-1">{{ item.title }}</p>
+      </div>
     </div>
   </div>
 </div>
