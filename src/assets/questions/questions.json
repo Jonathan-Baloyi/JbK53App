@@ -703,7 +703,7 @@
     "description": "What is true with regard to seat belts? \n\n1. If your vehicle has seat belts in the rear , it must be worn\n2. You need not wear a seat belt when reversing \n3. Children younger than 14 years need not wear a seat belt\n4. If the front seat has a seat belt , your only passenger may not sit at the back where there is no seat belt",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -761,7 +761,7 @@
     "description": "This road sign shows you that:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3, 4],
+    "questionType": [1, 3],
     "answers": [
       {
         "key": "A",
@@ -848,7 +848,7 @@
     "description": "This sign indicates that you:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3],
+    "questionType": [1],
     "answers": [
       {
         "key": "A",
@@ -877,7 +877,7 @@
     "description": "It is illegal when you drive and a passenger:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3, 4],
+    "questionType": [1],
     "answers": [
       {
         "key": "A",
@@ -906,7 +906,7 @@
     "description": "This sign shows you that:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3],
+    "questionType": [1],
     "answers": [
       {
         "key": "A",
@@ -964,7 +964,7 @@
     "description": "TThis road sign shows you that:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3],
+    "questionType": [1],
     "answers": [
       {
         "key": "A",
@@ -993,7 +993,7 @@
     "description": "To select a gear, you must use number?",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3],
+    "questionType": [1],
     "answers": [
       {
         "key": "A",
@@ -1022,7 +1022,7 @@
     "description": "To accelerate your vehicle, you must use number:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3],
+    "questionType": [1],
     "answers": [
       {
         "key": "A",
@@ -1051,7 +1051,7 @@
     "description": "What controls must you use when you are going to turn sharp?",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1, 3],
+    "questionType": [1],
     "answers": [
       {
         "key": "A",
