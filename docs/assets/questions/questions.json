@@ -1076,7 +1076,7 @@
   {
     "id": 39,
     "multipleAnswers": false,
-    "imageUrl": "assets/signs/Q39_image",
+    "imageUrl": "assets/signs/Q39_image.gif",
     "description": "This sign shows that:",
     "showCorrectAnswer": false,
     "checked": false,
@@ -1134,7 +1134,7 @@
   {
     "id": 41,
     "multipleAnswers": false,
-    "imageUrl": "assets/signs/Q41_image",
+    "imageUrl": "assets/signs/Q41_image.gif",
     "description": "This sign shows that:",
     "showCorrectAnswer": false,
     "checked": false,
@@ -1163,7 +1163,7 @@
   {
     "id": 42,
     "multipleAnswers": false,
-    "imageUrl": "assets/signs/Q42_image",
+    "imageUrl": "assets/signs/Q42_image.gif",
     "description": "This sign shows that:",
     "showCorrectAnswer": false,
     "checked": false,
