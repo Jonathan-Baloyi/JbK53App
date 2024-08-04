@@ -468,7 +468,7 @@
     "id": 18,
     "multipleAnswers": false,
     "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
-    "description": "When turning, use…",
+    "description": "To turn your vehicle, number (x) is used",
     "showCorrectAnswer": false,
     "checked": false,
     "questionType": [1, 3],
@@ -993,7 +993,7 @@
     "description": "To select a gear, you must use number?",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1],
+    "questionType": [1, 3],
     "answers": [
       {
         "key": "A",
@@ -1022,7 +1022,7 @@
     "description": "To accelerate your vehicle, you must use number:",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1],
+    "questionType": [1, 3],
     "answers": [
       {
         "key": "A",
@@ -1051,7 +1051,7 @@
     "description": "What controls must you use when you are going to turn sharp?",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [1],
+    "questionType": [1, 3],
     "answers": [
       {
         "key": "A",
@@ -1070,6 +1070,644 @@
       {
         "key": "A",
         "description": "1,3,4,5,6,8,9 and 10 only"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q39_image",
+    "description": "This sign shows that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Vehicles carrying hazardous products can only use the road during the times showed on the sign"
+      },
+      {
+        "key": "B",
+        "description": "All heavy vehicles may drive here during the times showed on the sign"
+      },
+      {
+        "key": "C",
+        "description": "Tankers must use this road during the times showed on the sign"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "Vehicles carrying hazardous products can only use the road during the times showed on the sign"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "You must not reverse your vehicle for further than:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "500 m"
+      },
+      {
+        "key": "B",
+        "description": "100 m"
+      },
+      {
+        "key": "C",
+        "description": "It is safe to do so"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "It is safe to do so"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q41_image",
+    "description": "This sign shows that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "No vehicle with trailers may drive past this sign"
+      },
+      {
+        "key": "B",
+        "description": "The road is only 15m wide past this sign"
+      },
+      {
+        "key": "C",
+        "description": "Vehicles longer than 15m may not drive past this sign"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "Vehicles longer than 15m may not drive past this sign"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q42_image",
+    "description": "This sign shows that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Your brakes will be checked at a stop ahead where you must stop"
+      },
+      {
+        "key": "B",
+        "description": "There is an arrestor bed ahead to be used when your brakes fail"
+      },
+      {
+        "key": "C",
+        "description": "The road forks ahead on a steep decline and you should slow down"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "There is an arrestor bed ahead to be used when your brakes fail"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "To indicate that you are going to turn, you must use number:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "5"
+      },
+      {
+        "key": "B",
+        "description": "3"
+      },
+      {
+        "key": "C",
+        "description": "11"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "5"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "When is it an offense when you are the holder of a learners license of a motorcycle: \n\n1. You ride on your motor cycle next to your instructor \n2. You keep one hand on the handlebars \n3. You ride at 80 km/h outside built-up areas",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "None of the above"
+      },
+      {
+        "key": "B",
+        "description": "You keep one hand on the handlebars"
+      },
+      {
+        "key": "C",
+        "description": "You ride at 80 km/h outside built-up areas"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "You keep one hand on the handlebars"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q45_image.gif",
+    "description": "When you see this sign you:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "May only ride a motor cycle of 50cc there"
+      },
+      {
+        "key": "B",
+        "description": "May not ride there"
+      },
+      {
+        "key": "C",
+        "description": "Must yield for other motor vehicles"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "May not ride there"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "If your motor cycle has an engine size of (x) cc, you may not use it on free way",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "125"
+      },
+      {
+        "key": "B",
+        "description": "250"
+      },
+      {
+        "key": "C",
+        "description": "50"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "50"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q47_image.gif",
+    "description": "This sign shows motor cycle riders that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "They must use that part of the road"
+      },
+      {
+        "key": "B",
+        "description": "There is parking for motor cycles there"
+      },
+      {
+        "key": "C",
+        "description": "They can use that part of the road if they wish"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "They can use that part of the road if they wish"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "When may you as the holder of a learners licence carry a passenger on your motor cycle?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "For short journeys if you do not exceed to the speed limit."
+      },
+      {
+        "key": "B",
+        "description": "In no case"
+      },
+      {
+        "key": "C",
+        "description": "When a motor cycle has a cylinder of at least 100 cc"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "In no case"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q49_image.gif",
+    "description": "This road sign shows you that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "All motor cycles must ride left of the arrow"
+      },
+      {
+        "key": "B",
+        "description": "A motor cycle may only ride in the left lane"
+      },
+      {
+        "key": "C",
+        "description": "There is a compulsory stop for motor cycles ahead"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "All motor cycles must ride left of the arrow"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "When you ride your motor cycle, you are not allowed to:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Have only one hand on the handlebars"
+      },
+      {
+        "key": "B",
+        "description": "Have one wheel of motor cycle off the ground"
+      },
+      {
+        "key": "C",
+        "description": "Carry a passenger on a 125 cc motor cycle"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "Have one wheel of motor cycle off the ground"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q51_image.gif",
+    "description": "This road sign shows you that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "You are riding in a city area"
+      },
+      {
+        "key": "B",
+        "description": "The speed limit for you is 60km/h"
+      },
+      {
+        "key": "C",
+        "description": "It is recommended that you do not ride faster than 60 km/h"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "The speed limit for you is 60km/h"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "What controls must you never use in combination?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "2 and 4"
+      },
+      {
+        "key": "B",
+        "description": "4 and 7"
+      },
+      {
+        "key": "C",
+        "description": "4 and 8"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "4 and 8"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "What controls must you never use in combination?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "2 and 4"
+      },
+      {
+        "key": "B",
+        "description": "4 and 7"
+      },
+      {
+        "key": "C",
+        "description": "4 and 8"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "4 and 8"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "To change gears, you must use numbers:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "1 and 5"
+      },
+      {
+        "key": "B",
+        "description": "1 and 2"
+      },
+      {
+        "key": "C",
+        "description": "2 and 7"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "1 and 2"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "To turn, you must use number:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "1"
+      },
+      {
+        "key": "B",
+        "description": "8"
+      },
+      {
+        "key": "C",
+        "description": "7"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "8"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "To stop, you must use number:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "2 and 7"
+      },
+      {
+        "key": "B",
+        "description": "4 and 7"
+      },
+      {
+        "key": "C",
+        "description": "1 and 2"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "4 and 7"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "To indicate that you going to turn, you must use number:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "6"
+      },
+      {
+        "key": "B",
+        "description": "4"
+      },
+      {
+        "key": "C",
+        "description": "8"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "6"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "The distance it takes you to stop your motor cycle is: \n\n1. Longer on a wet road than on dry road \n2. Longer if you ride at a higher speed \n3. Longer if it is loaded",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "(1) is only correct"
+      },
+      {
+        "key": "B",
+        "description": "None of the above are correct"
+      },
+      {
+        "key": "C",
+        "description": "All of the above are correct"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "All of the above are correct"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "To ride faster, you must use number?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "7"
+      },
+      {
+        "key": "B",
+        "description": "5"
+      },
+      {
+        "key": "C",
+        "description": "4"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "5"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-cycle-controls.gif",
+    "description": "What controls must you use when you are going to make a sharp turn?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [2],
+    "answers": [
+      {
+        "key": "A",
+        "description": "1,3,5,6 and 8 only"
+      },
+      {
+        "key": "B",
+        "description": "1, 2,4 and 8 only"
+      },
+      {
+        "key": "C",
+        "description": "1,2 3, 4, 6 and 8 only"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "1,2 3, 4, 6 and 8 only"
       }
     ]
   }
