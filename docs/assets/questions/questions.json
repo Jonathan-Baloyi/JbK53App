@@ -637,5 +637,440 @@
         "description": "All of the above are correct"
       }
     ]
+  },
+  {
+    "id": 24,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "The maximum distance between two vehicles being towed is:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "1.8m"
+      },
+      {
+        "key": "B",
+        "description": "3.5m"
+      },
+      {
+        "key": "C",
+        "description": "2.5m"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "3.5m"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "Which is allowed when towing another vehicle ? \n\n1. A motor car tows another motorcar with a rope and drives 40km/h\n2. You tow another vehicle with a tow bar \n3. A tractor tows a trailer with 10 passengers on it at a speed of 30 km/h",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "(2) and (3) are only correct"
+      },
+      {
+        "key": "B",
+        "description": "(2) is only correct"
+      },
+      {
+        "key": "C",
+        "description": "All of the above"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "(2) and (3) are only correct"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "What is true with regard to seat belts? \n\n1. If your vehicle has seat belts in the rear , it must be worn\n2. You need not wear a seat belt when reversing \n3. Children younger than 14 years need not wear a seat belt\n4. If the front seat has a seat belt , your only passenger may not sit at the back where there is no seat belt",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "(1) is only correct"
+      },
+      {
+        "key": "B",
+        "description": "(1), (2) and (4) are correct"
+      },
+      {
+        "key": "C",
+        "description": "All of the above are correct"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "(1), (2) and (4) are correct"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "If you only have a learners license for a light motor vehicle: \n\n1. There must be someone with you in the vehicle with the same class driving license\n2. You are not allowed to drive on a freeway \n3. No passengers are allowed with you in the vehicle",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "All of the above are correct"
+      },
+      {
+        "key": "B",
+        "description": "Only (1) is correct"
+      },
+      {
+        "key": "C",
+        "description": "Only (1) and (2) are correct"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "Only (1) is correct"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q28_image.gif",
+    "description": "This road sign shows you that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "The area is motor car taxis only"
+      },
+      {
+        "key": "B",
+        "description": "You must drive there"
+      },
+      {
+        "key": "C",
+        "description": "You can drive there if you wish"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "You must drive there"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q29_image.gif",
+    "description": "This sign forbids:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Minibuses to drive past this sign"
+      },
+      {
+        "key": "B",
+        "description": "Minibuses to pick up passengers"
+      },
+      {
+        "key": "C",
+        "description": "All motor vehicles to drive past this sign"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "Minibuses to drive past this sign"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "The lights of your vehicle parked on a public road between sunset and sunrise need not kept lite when the vehicle is parked: \n\n1. 10 km form a lighted street lamp\n2. Next to the roadway of the road \n3. In a demarcated parked area",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Only (i) and (iii) are correct"
+      },
+      {
+        "key": "B",
+        "description": "All of the above are correct"
+      },
+      {
+        "key": "C",
+        "description": "Only (ii) and (iii) are correct"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "All of the above are correct"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q31_image.gif",
+    "description": "This sign indicates that you:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "May not park there for more than 3 hours"
+      },
+      {
+        "key": "B",
+        "description": "Are only allowed to drive there between 06:00 and 09:00"
+      },
+      {
+        "key": "C",
+        "description": "May not drive there between 06:00 and 09:00"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "May not drive there between 06:00 and 09:00"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "It is illegal when you drive and a passenger:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3, 4],
+    "answers": [
+      {
+        "key": "A",
+        "description": "Rides on the bumper of your vehicle"
+      },
+      {
+        "key": "B",
+        "description": "Fiddles with the radio's volume knob"
+      },
+      {
+        "key": "C",
+        "description": "Sits directly behind you when you only have a learner's license"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "Rides on the bumper of your vehicle"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q33_image.gif",
+    "description": "This sign shows you that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "You must use that part of the road"
+      },
+      {
+        "key": "B",
+        "description": "There is parking for motor cars there"
+      },
+      {
+        "key": "C",
+        "description": "You can use that part of the road if you wish"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "You can use that part of the road if you wish"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "multipleAnswers": false,
+    "imageUrl": "",
+    "description": "The tread pattern of your vehicle's tyres may not be less than:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1],
+    "answers": [
+      {
+        "key": "A",
+        "description": "1.5mm"
+      },
+      {
+        "key": "B",
+        "description": "1mm"
+      },
+      {
+        "key": "C",
+        "description": "0.75mm"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "1mm"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/Q35_image.gif",
+    "description": "TThis road sign shows you that:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "No taxis may drive there"
+      },
+      {
+        "key": "B",
+        "description": "You may not park your motorcar there"
+      },
+      {
+        "key": "C",
+        "description": "No motorcars may drive there"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "No motorcars may drive there"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "To select a gear, you must use number?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "7 and 9"
+      },
+      {
+        "key": "B",
+        "description": "6 and 8"
+      },
+      {
+        "key": "C",
+        "description": "5 and 8"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "B",
+        "description": "6 and 8"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "To accelerate your vehicle, you must use number:",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "6"
+      },
+      {
+        "key": "B",
+        "description": "8"
+      },
+      {
+        "key": "C",
+        "description": "10"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "C",
+        "description": "10"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "multipleAnswers": false,
+    "imageUrl": "assets/signs/motor-vehicle-controls.jpg",
+    "description": "What controls must you use when you are going to turn sharp?",
+    "showCorrectAnswer": false,
+    "checked": false,
+    "questionType": [1, 3],
+    "answers": [
+      {
+        "key": "A",
+        "description": "1,3,4,5,6,8,9 and 10 only"
+      },
+      {
+        "key": "B",
+        "description": "1,3,5,6, and 8 only"
+      },
+      {
+        "key": "C",
+        "description": "3,4,5,9, and 10 only"
+      }
+    ],
+    "correctAnswers": [
+      {
+        "key": "A",
+        "description": "1,3,4,5,6,8,9 and 10 only"
+      }
+    ]
   }
 ]
