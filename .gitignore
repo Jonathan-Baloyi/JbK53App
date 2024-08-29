@@ -57,3 +57,5 @@ Thumbs.db
 .angular/cache/17.3.4/angular-webpack/80af03c37b8d600be1286692d810318c9dfe62d1/10.pack
 .angular/cache/17.3.4/angular-webpack/80af03c37b8d600be1286692d810318c9dfe62d1/index.pack
 .angular/cache/17.3.4/angular-webpack/80af03c37b8d600be1286692d810318c9dfe62d1/index.pack.old
+
+package-lock.json
