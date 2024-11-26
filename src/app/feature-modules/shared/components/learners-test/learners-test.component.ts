@@ -4,8 +4,9 @@ import { LearnersTestService } from '../../services/heavy-vehicle.service';
 import { QuestionTypeEnum } from '../../models/question-type.enum';
 
 @Component({
-  selector: 'app-learners-test',
-  templateUrl: './learners-test.component.html',
+    selector: 'app-learners-test',
+    templateUrl: './learners-test.component.html',
+    standalone: false
 })
 export class LearnersTestComponent {
   @Input() learnersTestType: number;

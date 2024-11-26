@@ -2,9 +2,10 @@ import { Component, Input, OnInit, HostListener, ElementRef } from '@angular/cor
 import { IMenu } from 'src/app/models/IMenu';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: []
+    selector: 'app-navbar',
+    templateUrl: './navbar.component.html',
+    styleUrls: [],
+    standalone: false
 })
 export class NavbarComponent implements OnInit {
 

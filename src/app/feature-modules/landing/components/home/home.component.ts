@@ -1,9 +1,10 @@
 import { Component, OnInit, signal } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: [],
+    selector: 'app-home',
+    templateUrl: './home.component.html',
+    styleUrls: [],
+    standalone: false
 })
 export class HomeComponent implements OnInit {
   learnersTestTypes = signal([
