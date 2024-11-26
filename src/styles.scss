@@ -1,13 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'app/scss/home.scss';
-@import 'app/scss/navbar.scss';
-@import 'app/scss/footer.scss';
-@import 'app/scss/container.scss';
-@import 'app/scss/learners-test.scss';
-@import 'app/scss/about.scss';
-@import 'app/scss/contact.scss';
+@use "app/scss/home.scss" as *;
+@use "app/scss/navbar.scss" as *;
+@use "app/scss/footer.scss" as *;
+@use "app/scss/container.scss" as *;
+@use "app/scss/learners-test.scss" as *;
+@use "app/scss/about.scss" as *;
+@use "app/scss/contact.scss" as *;
 
 /* Import of bootstrap */
-@import "~bootstrap/dist/css/bootstrap.css"
-
-
+@import "~bootstrap/dist/css/bootstrap.css";

@@ -1,11 +1,11 @@
-@import './variables.scss';
+@use "./variables.scss" as *;
 
 footer {
-  background-image: linear-gradient(260deg, #80C3F3 0%, #4A90E2 100%);
+  background-image: linear-gradient(260deg, #80c3f3 0%, #4a90e2 100%);
   background-color: $navbar-bg-color;
   position: fixed;
   bottom: 0;
-  left:0;
+  left: 0;
   right: 0;
   color: $ab-white-color !important;
   padding: 20px;

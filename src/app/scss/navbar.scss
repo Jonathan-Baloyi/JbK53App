@@ -1,11 +1,11 @@
-@import './variables.scss';
+@use "./variables.scss" as *;
 
-.logo{
+.logo {
   height: 200px;
 }
 .navbar-bg-mod {
   background-color: $navbar-bg-color;
- background-image: linear-gradient(260deg, #80C3F3  0%, #4A90E2  100%);
+  background-image: linear-gradient(260deg, #80c3f3 0%, #4a90e2 100%);
 }
 
 .navbar-font-color-mod {
@@ -13,5 +13,5 @@
 }
 
 .navbar-padding {
-  padding: .5rem 2rem !important;
+  padding: 0.5rem 2rem !important;
 }
