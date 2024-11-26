@@ -10,25 +10,18 @@ import { ContainerComponent } from './components/container/container.component';
 import { MenuService } from './services/menu.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent,
-    ContainerComponent,
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule,
-    BrowserModule,
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-  ],
-  providers: [MenuService],
-  bootstrap: [AppComponent],
-})
+@NgModule({ declarations: [
+        AppComponent,
+        NavbarComponent,
+        FooterComponent,
+        ContainerComponent,
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        BrowserModule,
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule], providers: [MenuService, provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule {}
