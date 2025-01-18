@@ -2977,7 +2977,7 @@
       },
       {
         "key": "C",
-        "description": "Only one vehicle can pass through the obstacles ahead"
+        "description": "Only one vehicle can pass through the obstacles ahead."
       }
     ],
     "correctAnswers": [
