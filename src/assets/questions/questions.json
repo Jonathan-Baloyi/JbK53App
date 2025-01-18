@@ -1747,7 +1747,7 @@
     "description": "Under what circumstances, if any, are you allowed to drive your motor vehicle on the right-hand side of a public road with traffic moving in both directions?",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [5],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -1776,7 +1776,7 @@
     "description": "Vehicle of which the brakes are not good, must be towed…",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [5],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -1863,7 +1863,7 @@
     "description": "The furthest that your vehicle’s dim lights may shine in front of you, is…m.",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [5],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -1892,7 +1892,7 @@
     "description": "You may not...",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [5],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -2066,7 +2066,7 @@
     "description": "The fastest speed at which you may tow a vehicle with a rope is..km/h.",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [5],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -2298,7 +2298,7 @@
     "description": "The sign shows you that only;may park there",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [5],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
@@ -2443,7 +2443,7 @@
     "description": "The sign shows you that...",
     "showCorrectAnswer": false,
     "checked": false,
-    "questionType": [5],
+    "questionType": [1, 3, 4],
     "answers": [
       {
         "key": "A",
